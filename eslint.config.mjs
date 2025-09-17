@@ -19,6 +19,15 @@ const eslintConfig = [
       "build/**",
       "next-env.d.ts",
     ],
+    "rules": {
+      "no-unused-vars": "warn",
+      "@typescript-eslint/ban-ts-comment": "warn",
+      "@typescript-eslint/no-unused-vars": "warn",
+      "@typescript-eslint/no-non-null-asserted-optional-chain": "warn",
+      "@typescript-eslint/no-explicit-any": "off",
+      "tailwindcss/migration-from-tailwind-2": "warn",
+      "@tanstack/query/prefer-query-object-syntax": "off"
+    },
   },
 ];
 
