@@ -16,7 +16,7 @@ function LoginPage() {
   const { getMyInfo } = useAuthContext();
   const defaultValues: LoginDto = {
     email: 'info@capacityvietnam.com',
-    password: 'botros123'
+    password: 'capacityvietnam123'
   };
 
   const {
