@@ -26,7 +26,7 @@ const DropdownUser = () => {
         <DropdownTrigger>
           <Button variant="light">
             <p className="font-semibold">
-              {userData?.firstname} {userData?.lastname}
+              {userData?.firstname}{userData?.lastname}
             </p>
           </Button>
         </DropdownTrigger>
